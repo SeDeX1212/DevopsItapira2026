@@ -174,6 +174,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 948343705614210611, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: duration
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 8757520444356553065, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -231,6 +235,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 439155926637628025, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: initialDirection.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7554019870153478903, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
       propertyPath: m_Name
       value: Ghost_Blinky
@@ -9418,6 +9426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3940841542558737307, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4731190548802025608, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
       propertyPath: m_Name
       value: Ghost_Pinky
@@ -9614,6 +9626,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3048590764977393346, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: duration
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6725839183993427409, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky

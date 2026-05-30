@@ -72,8 +72,23 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d65aa956b7569874fab274083826a77f, type: 3}
+    - target: {fileID: 5087899741959008221, guid: 769dfb401552fb042be26c834d83d4c0, type: 3}
+      propertyPath: initialBehavior
+      value: 
+      objectReference: {fileID: 4717001729625566536}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 769dfb401552fb042be26c834d83d4c0, type: 3}
+--- !u!114 &4717001729625566536 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1013691632465112501, guid: 769dfb401552fb042be26c834d83d4c0, type: 3}
+  m_PrefabInstance: {fileID: 5721668568498716925}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c36fab5af35a34ba40f86c851d8076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhostScatter

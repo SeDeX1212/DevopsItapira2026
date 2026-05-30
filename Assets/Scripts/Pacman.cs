@@ -29,4 +29,10 @@ public void Update()
          this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward) ;         
     }
 
+    public void ResetState()
+    {
+        this.movement.ResetState();
+        this.gameObject.SetActive(true);
+
+    }
 }
