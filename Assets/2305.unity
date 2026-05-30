@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: duration
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 1952557037792588023, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 884958379}
     - target: {fileID: 8757520444356553065, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -239,6 +243,10 @@ PrefabInstance:
       propertyPath: initialDirection.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 719637938172260128, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 884958379}
     - target: {fileID: 7554019870153478903, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
       propertyPath: m_Name
       value: Ghost_Blinky
@@ -6459,6 +6467,17 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &359217742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2342293281693287775, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+  m_PrefabInstance: {fileID: 976483361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ghost
 --- !u!1 &621468640
 GameObject:
   m_ObjectHideFlags: 0
@@ -9426,6 +9445,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2342293281693287775, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 884958379}
     - target: {fileID: 3940841542558737307, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
       propertyPath: duration
       value: 2
@@ -9508,7 +9531,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f717bfd9a9f2c14ebbcb554eb29d2b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  ghosts: []
+  ghosts:
+  - {fileID: 1597366021}
+  - {fileID: 1610872164}
+  - {fileID: 359217742}
+  - {fileID: 1904674915}
   pacman: {fileID: 884958375}
   pellets: {fileID: 968538581}
 --- !u!4 &1234350734
@@ -9618,6 +9645,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1597366021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 719637938172260128, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+  m_PrefabInstance: {fileID: 315521517}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ghost
 --- !u!1001 &1610644424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9630,6 +9668,10 @@ PrefabInstance:
       propertyPath: duration
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4359225996336932870, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 884958379}
     - target: {fileID: 6725839183993427409, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky
@@ -9679,6 +9721,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+--- !u!114 &1610872164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4359225996336932870, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+  m_PrefabInstance: {fileID: 1610644424}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ghost
+--- !u!114 &1904674915 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1952557037792588023, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+  m_PrefabInstance: {fileID: 193095243}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ghost
 --- !u!1 &1956745874
 GameObject:
   m_ObjectHideFlags: 0
