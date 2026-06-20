@@ -1,9 +1,11 @@
-name: Gerar EXE
+name: Build Executavel
 
 on:
   push:
     branches:
       - Labirinto
+
+  workflow_dispatch:
 
 jobs:
 
@@ -16,22 +18,27 @@ jobs:
       - name: Baixar repositorio
         uses: actions/checkout@v4
 
-      - name: Instalar Python
+      - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Instalar dependencias
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pyinstaller
 
-      - name: Gerar executavel
+      - name: Verificar arquivos
         run: |
-          pyinstaller --onefile --noconsole labirinto_bfs_dfs.py
+          dir
 
-      - name: Salvar artefato
+      - name: Gerar executavel
+
+        run: pyinstaller --onefile --windowed --name Labirinto_BFS_DFS labirinto_bfs_dfs.py
+
+      - name: Publicar artefato
         uses: actions/upload-artifact@v4
         with:
           name: Labirinto-BFS-DFS
-          path: dist/*
+          path: dist/Labirinto_BFS_DFS.exe
