@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e0745c193b9eff41a915ebd0789837e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!61 &5190248547800133101
 BoxCollider2D:
   m_ObjectHideFlags: 0
