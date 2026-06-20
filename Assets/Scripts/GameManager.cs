@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
     public Transform pellets;
 
     public int ghostMultiplier {get;private set;} =1;
-    public int score{ get;private set;} 
-    public int lives {get;private set;}
+    public int score{ get;private set; } 
+    public int lives { get;private set; }
 
     private void Start(){
         NewGame();
@@ -93,6 +93,12 @@ public class GameManager : MonoBehaviour
     }
     public void PowerPelletEaten(PowerPellet pellet)
     {
+        for (int i = 0; i < this.ghosts.Length; i++)
+        {
+        this.ghosts[i].frightened.Enable(pellet.duration);
+        }
+        
+
         Invoke(nameof(ResetGhostMultiplier),pellet.duration);
         CancelInvoke();
         PelletEaten(pellet);

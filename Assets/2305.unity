@@ -166,6 +166,11 @@ Transform:
   - {fileID: 1987017196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &187700040 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7205023563535710192, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+  m_PrefabInstance: {fileID: 193095243}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &193095243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198,6 +203,22 @@ PrefabInstance:
       propertyPath: initialBehavior
       value: 
       objectReference: {fileID: 1904674919}
+    - target: {fileID: 5140219023556172845, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 1749209643}
+    - target: {fileID: 5140219023556172845, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 417731405}
+    - target: {fileID: 5140219023556172845, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 1075241003}
+    - target: {fileID: 5140219023556172845, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 475575725}
     - target: {fileID: 8757520444356553065, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -275,6 +296,22 @@ PrefabInstance:
       propertyPath: outside
       value: 
       objectReference: {fileID: 782462157}
+    - target: {fileID: 6174984108086871034, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 807657419}
+    - target: {fileID: 6174984108086871034, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1526368690}
+    - target: {fileID: 6174984108086871034, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 736943340}
+    - target: {fileID: 6174984108086871034, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 1455661453}
     - target: {fileID: 7554019870153478903, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
       propertyPath: m_Name
       value: Ghost_Blinky
@@ -6326,6 +6363,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ghost
+--- !u!212 &417731405 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5205738571855734337, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+  m_PrefabInstance: {fileID: 193095243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &453222585 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4943428969052647169, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+  m_PrefabInstance: {fileID: 1610644424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &475575725 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8734255541147764279, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+  m_PrefabInstance: {fileID: 193095243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &555947222 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2574291035293673860, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+  m_PrefabInstance: {fileID: 1610644424}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &621468640
 GameObject:
   m_ObjectHideFlags: 0
@@ -6463,6 +6520,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &736943340 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8149589403688986663, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+  m_PrefabInstance: {fileID: 315521517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &782462156
 GameObject:
   m_ObjectHideFlags: 0
@@ -6494,6 +6556,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1987017196}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &807657419 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1601599319441387170, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+  m_PrefabInstance: {fileID: 315521517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &884915527
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,6 +6813,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b9e942f52231447982b32da230f8d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pacman
+--- !u!212 &916703158 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7769278357928122848, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+  m_PrefabInstance: {fileID: 315521517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &968538580
 GameObject:
   m_ObjectHideFlags: 0
@@ -9423,11 +9495,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8992605317729184133, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 1231912152}
+    - target: {fileID: 8992605317729184133, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1142684138}
+    - target: {fileID: 8992605317729184133, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 453222585}
+    - target: {fileID: 8992605317729184133, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 1675843380}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+--- !u!212 &1075241003 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6369494852745380440, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+  m_PrefabInstance: {fileID: 976483361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1095368733 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3940841542558737307, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
@@ -9439,6 +9532,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdde8496162f2cc49ae73b58a9087031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GhostHome
+--- !u!212 &1142684138 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8023597125111512752, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+  m_PrefabInstance: {fileID: 1610644424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1231912152 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 350802190735618421, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}
+  m_PrefabInstance: {fileID: 193095243}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1234350732
 GameObject:
   m_ObjectHideFlags: 0
@@ -9582,6 +9685,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!212 &1455661453 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6796419565959438022, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+  m_PrefabInstance: {fileID: 1610644424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1526368690 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6546603307550685590, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
+  m_PrefabInstance: {fileID: 315521517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1597366021 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 719637938172260128, guid: a32c8b904892a8249a2160e2701efd59, type: 3}
@@ -9665,6 +9778,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6931687725172655324, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 555947222}
+    - target: {fileID: 6931687725172655324, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 1142684138}
+    - target: {fileID: 6931687725172655324, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 187700040}
+    - target: {fileID: 6931687725172655324, guid: 4eb43b4a3c326044ca98ecd92eedc91d, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 916703158}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9681,6 +9810,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d3e97dfff3bc04f9b317d347020c93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ghost
+--- !u!212 &1675843380 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4805288236263256991, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+  m_PrefabInstance: {fileID: 976483361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1749209643 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4559845867778311389, guid: 39d99b45c00e67345995e967a4da474f, type: 3}
+  m_PrefabInstance: {fileID: 976483361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1904674915 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1952557037792588023, guid: 01bc978270d2f7e4086648d69dbb2939, type: 3}

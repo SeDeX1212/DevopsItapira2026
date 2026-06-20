@@ -1,5 +1,7 @@
 using UnityEngine;
 
+[DefaultExecutionOrder(-10)]
+[RequireComponent(typeof(Movement))]
 public class Ghost : MonoBehaviour
 {
     public Movement movement { get; private set; }
@@ -7,45 +9,40 @@ public class Ghost : MonoBehaviour
     public GhostScatter scatter { get; private set; }
     public GhostChase chase { get; private set; }
     public GhostFrightened frightened { get; private set; }
-
     public GhostBehavior initialBehavior;
     public Transform target;
     public int points = 200;
 
     private void Awake()
     {
-        this.movement = GetComponent<Movement>();
-        this.home = GetComponent<GhostHome>();
-        this.scatter = GetComponent<GhostScatter>();
-        this.frightened = GetComponent<GhostFrightened>();
-        this.chase = GetComponent<GhostChase>();
-
+        movement = GetComponent<Movement>();
+        home = GetComponent<GhostHome>();
+        scatter = GetComponent<GhostScatter>();
+        chase = GetComponent<GhostChase>();
+        frightened = GetComponent<GhostFrightened>();
     }
-    private void Start(
 
-    )
+    private void Start()
     {
         ResetState();
     }
+
     public void ResetState()
     {
-        this.gameObject.SetActive(true);
-        this.movement.ResetState();
+        gameObject.SetActive(true);
+        movement.ResetState();
 
-        this.frightened.Disable();
-        this.chase.Disable();
-        this.scatter.Enable();
-   
-        if(this.home != this.initialBehavior)
-        {
-            this.home.Disable();
-        }
-       if(this.initialBehavior != null)
-        {
-            this.initialBehavior.Enable();
+        frightened.Disable();
+        chase.Disable();
+        scatter.Enable();
+
+        if (home != initialBehavior) {
+            home.Disable();
         }
 
-
+        if (initialBehavior != null) {
+            initialBehavior.Enable();
+        }
     }
 
     public void SetPosition(Vector3 position)
@@ -55,21 +52,16 @@ public class Ghost : MonoBehaviour
         transform.position = position;
     }
 
-
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Pacman"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Pacman"))
         {
-            if (this.frightened.enabled)
-            {
+            if (frightened.enabled) {
                 FindObjectOfType<GameManager>().GhostEaten(this);
-            
-            }else
-            {
+            } else {
                 FindObjectOfType<GameManager>().PacmanEaten();
             }
+        }
     }
-    }
-}
 
+}
