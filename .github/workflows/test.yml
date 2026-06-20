@@ -3,7 +3,7 @@ name: Testar Labirinto
 on:
   push:
     branches:
-      - main
+      - Labirinto
 
   pull_request:
 

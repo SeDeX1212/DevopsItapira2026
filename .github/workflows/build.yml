@@ -3,7 +3,7 @@ name: Gerar EXE
 on:
   push:
     branches:
-      - main
+      - Labirinto
 
 jobs:
 
