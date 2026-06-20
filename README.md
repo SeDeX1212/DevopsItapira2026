@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # DevopsItapira2026
 Aula Materia de Devops
 =======
@@ -29,4 +29,3 @@ Projeto desenvolvido em Python e Pygame para demonstrar visualmente:
 B - Executar BFS
 D - Executar DFS
 R - Gerar novo labirinto
->>>>>>> aca0003cda06e4a9446ed33dbe6cf5feb7bcc706
