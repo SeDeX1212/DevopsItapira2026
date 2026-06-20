@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - Labirinto
+  workflow_dispatch:
 
 jobs:
   build:
