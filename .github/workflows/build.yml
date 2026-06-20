@@ -34,12 +34,8 @@ jobs:
           dir
 
       - name: Gerar executavel
-        run: |
-          pyinstaller ^
-            --onefile ^
-            --windowed ^
-            --name Labirinto_BFS_DFS ^
-            labirinto_bfs_dfs.py
+
+        run: pyinstaller --onefile --windowed --name Labirinto_BFS_DFS labirinto_bfs_dfs.py
 
       - name: Publicar artefato
         uses: actions/upload-artifact@v4
